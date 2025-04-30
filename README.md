@@ -2,6 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+1.	Prerequisites:  Node.js and npm (or yarn): Make sure you have Node.js and npm (Node Package Manager) or yarn installed on your computer. You can download them from https://nodejs.org/.
+2.	Create the Project Directory:  Open your terminal or command prompt and create a new directory for your project: mkdir rocketreach-search-app cd rocketreach-search-app
+3.	 Initialize the React App:  Use Create React App to set up the basic project structure: npx create-react-app . (The . at the end will create the project in the current directory.) 
+4.	 Create Components and CSS Files:  Create a components folder inside the src directory: mkdir src/components
+5.	Create Components and CSS Files:  Create a components folder inside the src directory: mkdir src/components/backend
+
+•	Create the SearchResults.js file inside the src/components folder. 
+•	 Create the SearchResults.css file inside the src/components folder.
+•	 Replace the content of src/App.js with the code provided in the first code block.
+•	 Replace the content of src/components/SearchResults.js with the code provided in the second code block. 
+•	 Replace the content of src/App.css with the code provided in the third code block. 
+•	Create a new file src/components/SearchResults.css and paste the content from the fourth code block.
+•	Create a new file src/components/backend/server.js and paste the content from the fourth code block.
+6.	Install Dependencies (if needed):
+npm install  axios
+npm install cors
+7.	Create an account in  Rocket api,  and get api key and use it 
+
+
 ## Available Scripts
 
 In the project directory, you can run:
