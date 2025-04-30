@@ -1,0 +1,36 @@
+.search-results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.user-card {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  width: 150px;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+	word-wrap: break-word; /* Allows long usernames to wrap */
+	 overflow: hidden; /* Prevents text from spilling out */
+	 text-align: center; /* Ensures alignment */
+	 max-width: 100%; /* Restricts username width */
+}
+
+.fullname {
+	white-space: normal; /* Prevents forced truncation */
+	overflow: visible; /* Ensures full text is shown */
+	word-wrap: break-word; /* Allows longer names to wrap */
+	max-width: 100%; /* Prevents cutting off text */
+}
