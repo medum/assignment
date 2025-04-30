@@ -20,7 +20,7 @@ npm install  axios
 npm install cors
 7.	Create an account in  Rocket api,  and get api key and use it 
 
-#Test scenarioes
+# Test scenarioes
 Please check the file Test cases for testing screen shots
 
 
